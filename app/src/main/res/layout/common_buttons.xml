@@ -1,0 +1,19 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_button"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/grey"
+        android:text="Отмена"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/go_button"
+        android:textColor="@color/white"
+        android:text="Далее"/>
+</merge>

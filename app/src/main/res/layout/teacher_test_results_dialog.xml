@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/publish_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="#FFFFBB33"
+        android:text="РЕЗУЛЬТАТЫ ТЕСТА"
+        android:textColor="@color/purple_700"
+        android:contentDescription="@string/app_name"
+        android:clickable="false"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/teacher_test_results_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        tools:listitem="@layout/student_result_item" />
+
+    <!--include layout="@layout/common_buttons" /-->
+</LinearLayout>

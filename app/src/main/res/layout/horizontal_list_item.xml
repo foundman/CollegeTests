@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="0dp"
+    android:background="@color/purple_700"
+    android:id="@+id/num_of_task"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:text="1"
+    android:layout_marginStart="5dp"
+    android:textColor="@color/white"
+    android:textSize="27sp"
+    android:gravity="center">
+</TextView>
